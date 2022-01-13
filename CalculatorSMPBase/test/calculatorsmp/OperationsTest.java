@@ -108,27 +108,9 @@ public class OperationsTest {
             result=Operations.Solve(formula);
             fail("Dx");
         }catch (Exception ex){
-        System.err.println("                                   ___");
-        System.err.println("                               ,-\"\"   `.");
-        System.err.println("                             ,'  _   e )`-._");
-        System.err.println("                            /  ,' `-._<.===-'");
-        System.err.println("                           /  /");
-        System.err.println("                          /  ;             De vuelta a primaria >:)");
-        System.err.println("              _.--.__    /   ;");
-        System.err.println(" (`._    _.-\"\"       \"--'    |");
-        System.err.println(" <_  `-\"\"                     |");
-        System.err.println("  <`-                          :");
-        System.err.println("   (__   <__.                  ;");
-        System.err.println("     `-.   '-.__.      _.'    /");
-        System.err.println("        \\      `-.__,-'    _,'");
-        System.err.println("         `._    ,    /__,-'");
-        System.err.println("            \"\"._\\__,'< <____");
-        System.err.println("                 | |  `----.`.");
-        System.err.println("                 | |        \\ `.");
-        System.err.println("                 ; |___      \\-``");
-        System.err.println("                 \\   --<");
-        System.err.println("                  `.`.<");
-        System.err.println("                    `-'");
+
+        System.err.println("Permite division por 0");
+
         }   
     }
 }
