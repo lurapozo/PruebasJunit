@@ -12,7 +12,9 @@ import java.util.Stack;
 public class Operations {
 
     private static String[] op = { "+", "-", "*", "/" };// Operation set
-
+    public static String MakeFormula (String a, String b, String op){
+        return a+op+b;
+    }
     public static String MakeFormula(){
         System.out.println("git modify");
         StringBuilder build = new StringBuilder();
